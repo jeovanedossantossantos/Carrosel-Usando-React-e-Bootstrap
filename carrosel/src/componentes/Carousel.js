@@ -1,8 +1,10 @@
 import React from 'react'
-import Img from 'react-image'
+import { Link } from 'react-router-dom'
+
 import Teacher1 from "./img/imagem1.jpeg"
 import Teacher2 from "./img/imagem2.jpeg"
 import Teacher3 from "./img/imagem3.jpeg"
+
 
 const Carrosel1 = props => {
     return (

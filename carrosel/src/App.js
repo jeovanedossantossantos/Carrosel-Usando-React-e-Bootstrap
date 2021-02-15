@@ -1,22 +1,25 @@
 
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import Carousel from './componentes/Carousel'
 
 
-import Carrosel1 from './componentes/Carrosel1'
-import Fotos from './componentes/Fotos'
 
 
 function App() {
   return (
    
+    <BrowserRouter>
       <div className="App">
-     
+        
 
-        <Fotos/>
+        <Route path='/' exact component={Carousel} />
 
-
+       
 
       </div>
+    </BrowserRouter>
     
   );
 }
